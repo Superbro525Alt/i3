@@ -1,0 +1,12 @@
+contexts:
+    default:
+        brokers:
+            - localhost:9092
+        kafkaversion: 2.1.1
+    remote-cluster:
+        brokers:
+            - edd7b0-rev-kafka-master1.stage-rc.in:9092
+            - edd7b0-rev-kafka-slave1.stage-rc.in:9092
+            - edd7b0-rev-kafka-slave2.stage-rc.in:9092
+        kafkaversion: 2.1.1
+current-context: default

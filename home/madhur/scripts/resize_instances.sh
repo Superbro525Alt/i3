@@ -1,0 +1,5 @@
+aws ec2 modify-instance-attribute --instance-id i-06ec57184ffcdac48 --instance-type "{\"Value\": \"c6g.4xlarge\"}"
+aws ec2 modify-instance-attribute --instance-id i-01b8c40caea65ad68 --instance-type "{\"Value\": \"c6g.4xlarge\"}"
+aws ec2 modify-instance-attribute --instance-id i-06f3837ce59c182b4 --instance-type "{\"Value\": \"c6g.4xlarge\"}"
+aws ec2 modify-instance-attribute --instance-id i-07445b5bb8a03dc2e --instance-type "{\"Value\": \"c6g.4xlarge\"}"
+aws ec2 modify-instance-attribute --instance-id i-0d4e276228ec06d0b --instance-type "{\"Value\": \"c6g.4xlarge\"}"
